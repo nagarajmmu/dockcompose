@@ -1,0 +1,11 @@
+version: '3.5'
+services: 
+ nagarajdocker1:
+  image: nagarajdockcomp:v1
+  build: 
+   context: .
+   dockerfile: nagaraj.dockerfile
+  container_name: nagarajc1
+  ports: 
+   - "9696:80"
+
