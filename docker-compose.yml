@@ -7,5 +7,5 @@ services:
    dockerfile: nagaraj.dockerfile
   container_name: nagarajc1
   ports: 
-   - "9697:80"
+   - "9698:80"
 
